@@ -23,7 +23,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // @ts-ignore
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
